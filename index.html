@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="grid.css" /> -->
+    <title>Grid Structure</title>
+    <style>
+      article {
+        display: grid;
+        width: 600px;
+        height: 400px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 5rem);
+      }
+
+      div {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article>
+      <div>ONE</div>
+      <div>TWO</div>
+      <div>THREE</div>
+      <div>FOUR</div>
+      <div>FIVE</div>
+      <div>SIX</div>
+      <div>SEVEN</div>
+      <div>EIGHT</div>
+      <div>NINE</div>
+      <div>TEN</div>
+      <div>ELEVEN</div>
+    </article>
+    <p>This is a para</p>
+  </body>
+</html>
